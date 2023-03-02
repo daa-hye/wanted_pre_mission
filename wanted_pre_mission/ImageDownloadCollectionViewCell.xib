@@ -47,6 +47,11 @@
                 <constraint firstItem="kHo-lF-PQj" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="ueK-xY-yzG"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="downloadButton" destination="1pP-9n-uhc" id="kVa-ZI-9BO"/>
+                <outlet property="downloadImage" destination="HrX-6p-eTX" id="GfK-rR-70A"/>
+                <outlet property="progressBar" destination="kHo-lF-PQj" id="6g7-Fd-p33"/>
+            </connections>
             <point key="canvasLocation" x="-9.1603053435114496" y="17.605633802816904"/>
         </view>
     </objects>
